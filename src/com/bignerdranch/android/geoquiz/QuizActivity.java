@@ -1,17 +1,17 @@
 package com.bignerdranch.android.geoquiz;
 
-//import android.R.menu;
+
 import android.app.Activity;
 import android.os.Bundle;
-//import android.view.Menu;
+
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
 public class QuizActivity extends Activity{
 	
-	private Button mTrueButton;
-	private Button mFalseButton;
+	private Button mTrueButton = null;
+	private Button mFalseButton = null;
 
 	public void OnCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -34,8 +34,5 @@ public class QuizActivity extends Activity{
 		});
 	}
 	
-/*	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.activity_quiz, menu);
-		return true;
-	}*/
+
 }
